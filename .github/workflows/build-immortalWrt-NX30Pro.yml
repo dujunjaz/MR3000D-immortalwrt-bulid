@@ -10,7 +10,7 @@ on:
         description: 'Select a device'
         type: choice
         options:
-            - 'h3c_nx30pro'
+            - 'MR3000D-clq'
             - 'mt7981-spim-nor-rfb'
             - 'mt7981-spim-nand-2500wan-gmac2'
             - 'mt7981-spim-nand-rfb'
@@ -47,7 +47,7 @@ on:
             - 'nradio_wt9103'
             - 'nradio_wt9103_512m'
         required: true
-        default: 'h3c_nx30pro'
+        default: 'MR3000D-clq'
   watch:
     types: [ started ]
 
